@@ -34,7 +34,7 @@ public class TestController {
 		@RequestMapping(value="/testtable",method=RequestMethod.GET)
 		public  String table()
 		{
-			System.out.println("test------");
+			System.out.println("test--------");
 			return "system/test";
 		}
 		@RequestMapping(value="/mytest",method=RequestMethod.POST)
